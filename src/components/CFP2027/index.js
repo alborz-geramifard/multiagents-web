@@ -30,7 +30,7 @@ const SECTIONS = [
 ];
 
 const MILESTONES = [
-  ['Submissions due', 'November 20, 2026', '2026-11-20T23:59:00-12:00'],
+  ['Submissions due', 'November 20, 2026 · 23:59 AoE', '2026-11-20T23:59:00-12:00'],
   ['Notifications', 'December 2, 2026', '2026-12-02T23:59:00-12:00'],
   ['Workshop begins', 'February 22, 2027', '2027-02-22T08:30:00-05:00'],
 ];
@@ -68,7 +68,7 @@ const LEGEND = [['talk', 'Invited talk'], ['oral', 'Contributed'], ['poster', 'P
 
 const DATES = [
   ['Oct 2, 2026', 'Call for participation'],
-  ['Nov 20, 2026', 'Paper submission deadline', true],
+  ['Nov 20, 2026', 'Paper submission deadline (23:59 AoE)', true],
   ['Dec 2, 2026', 'Notification of acceptance'],
   ['Feb 22–23, 2027', 'Workshop, Montréal'],
 ];
@@ -135,7 +135,7 @@ function Countdown() {
     return () => clearInterval(id);
   }, []);
   if (state && state.done) return null;
-  const s = state || {label: 'Submissions due', date: 'November 20, 2026', d: '–', h: '–', m: '–'};
+  const s = state || {label: 'Submissions due', date: 'November 20, 2026 · 23:59 AoE', d: '–', h: '–', m: '–'};
   return (
     <div className={styles.countdownWrap}>
       <div className={styles.countdown} aria-live="polite">
