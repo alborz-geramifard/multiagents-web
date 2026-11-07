@@ -307,8 +307,11 @@ export default function CFP2027() {
           <div className={styles.tracks}>
             <div className={styles.track}><h3>Full papers</h3><p className={styles.big}>up to 8 pages</p><p>Original research on measuring collective intelligence in agentic systems.</p></div>
             <div className={styles.track}><h3>Short, demo &amp; position papers</h3><p className={styles.big}>up to 4 pages</p><p>Early results, system demos, case studies, and position statements.</p></div>
+            <p className={styles.note}>Page counts exclude references and appendices. All papers use the AAAI-27 format.</p>
           </div>
           <ul className={styles.checks}>
+            <li><b>Format: AAAI-27.</b> Use the official <Link href="https://aaai.org/authorkit27/">AAAI-27 Author Kit</Link>, anonymized for review.</li>
+            <li><b>Page limits cover the main text only.</b> References and appendices do not count and are unlimited. Reviewers are not required to read the appendix, so the main paper should stand on its own.</li>
             <li><b>Non-archival.</b> Presenting here does not prevent publishing elsewhere.</li>
             <li><b>Double-blind review</b> on OpenReview, with three reviews per paper.</li>
             <li><b>Best Student Paper Award</b> for master's and PhD students.</li>
