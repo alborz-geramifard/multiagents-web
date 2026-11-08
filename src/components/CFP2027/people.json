@@ -15,11 +15,6 @@
       "url": "https://bengio.abracadoudou.com/"
     },
     {
-      "name": "Mikaela Grace",
-      "affiliation": "Anthropic",
-      "bio": "How deployed agents coordinate in practice, and where coordination breaks."
-    },
-    {
       "name": "Bo An",
       "affiliation": "Nanyang Technological University",
       "bio": "Game-theoretic and reinforcement-learning approaches to multi-agent decision making.",
@@ -39,13 +34,6 @@
       "bio": "Causal reasoning with LLMs, and what GovSim and MoralSim show about cooperation and norms in societies of LLM agents.",
       "image": "zhijing_jin",
       "url": "https://zhijing-jin.com/"
-    },
-    {
-      "name": "Noah Goodman",
-      "affiliation": "Stanford University",
-      "bio": "The cognitive-science view of collective reasoning.",
-      "image": "noah_goodman",
-      "url": "https://cocolab.stanford.edu/ndg"
     }
   ],
   "organizers": [
