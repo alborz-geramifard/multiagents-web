@@ -200,12 +200,16 @@ function Section({id, alt, kicker, title, sub, children}) {
 }
 
 function Person({person, variant}) {
+  const face = person.image
+    ? <img src={`/2027/${person.image}.webp`} alt={person.name} loading="lazy" width="132" height="132" />
+    : <div className={styles.initials} role="img" aria-label={person.name}>{initials(person.name)}</div>;
+  const link = (el) => person.url
+    ? <a href={person.url} target="_blank" rel="noopener noreferrer" className={styles.personLink} aria-label={`${person.name} homepage`}>{el}</a>
+    : el;
   return (
     <article className={clsx(styles.person, styles.reveal)}>
-      {person.image
-        ? <img src={`/2027/${person.image}.webp`} alt={person.name} loading="lazy" width="132" height="132" />
-        : <div className={styles.initials} role="img" aria-label={person.name}>{initials(person.name)}</div>}
-      <h3>{person.name}</h3>
+      {link(face)}
+      <h3>{link(person.name)}</h3>
       <p className={styles.aff}>{person.affiliation}{person.role && <> · {person.role}</>}</p>
       <p className={clsx(styles.bio, variant === 'speaker' && styles.bioCenter)}>{person.bio}</p>
     </article>
