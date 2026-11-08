@@ -1,51 +1,62 @@
 {
   "speakers": [
     {
-      "name": "Michael Wooldridge",
-      "affiliation": "University of Oxford",
-      "bio": "Author of textbooks that shaped the multi-agent systems field. On what classical MAS research already knows about measuring collective behavior.",
-      "image": "michael_wooldridge",
-      "url": "https://www.cs.ox.ac.uk/people/michael.wooldridge/"
-    },
-    {
-      "name": "Samy Bengio",
-      "affiliation": "Apple · EPFL",
-      "bio": "How capability scales as AI systems grow more composite.",
-      "image": "samy_bengio",
-      "url": "https://bengio.abracadoudou.com/"
-    },
-    {
-      "name": "Mikaela Grace",
-      "affiliation": "Anthropic",
-      "bio": "How deployed agents coordinate in practice, and where coordination breaks."
-    },
-    {
       "name": "Bo An",
       "affiliation": "Nanyang Technological University",
       "bio": "Game-theoretic and reinforcement-learning approaches to multi-agent decision making.",
       "image": "bo_an",
-      "url": "https://personal.ntu.edu.sg/boan/"
+      "url": "https://personal.ntu.edu.sg/boan/",
+      "status": "Confirmed"
     },
     {
       "name": "Joel Z. Leibo",
       "affiliation": "Google DeepMind · King's College London",
       "bio": "What Melting Pot and Concordia reveal about multi-agent cooperation, and what they still miss.",
       "image": "joel_leibo",
-      "url": "https://www.jzleibo.com/"
+      "url": "https://www.jzleibo.com/",
+      "status": "Confirmed"
     },
     {
       "name": "Zhijing Jin",
-      "affiliation": "University of Toronto · Max Planck Institute",
+      "affiliation": "University of Toronto · Vector Institute",
       "bio": "Causal reasoning with LLMs, and what GovSim and MoralSim show about cooperation and norms in societies of LLM agents.",
       "image": "zhijing_jin",
-      "url": "https://zhijing-jin.com/"
+      "url": "https://zhijing-jin.com/",
+      "status": "Confirmed"
     },
     {
-      "name": "Noah Goodman",
-      "affiliation": "Stanford University",
-      "bio": "The cognitive-science view of collective reasoning.",
-      "image": "noah_goodman",
-      "url": "https://cocolab.stanford.edu/ndg"
+      "name": "Samy Bengio",
+      "affiliation": "Apple · EPFL",
+      "bio": "How capability scales as AI systems grow more composite.",
+      "image": "samy_bengio",
+      "url": "https://bengio.abracadoudou.com/",
+      "status": "Tentative"
+    },
+    {
+      "name": "Anita Williams Woolley",
+      "affiliation": "Carnegie Mellon University",
+      "bio": "Creator of the “c factor,” the canonical measure of collective intelligence in groups.",
+      "image": "anita_woolley",
+      "url": "https://sites.google.com/view/anitawoolley-com",
+      "status": "Invited"
+    },
+    {
+      "name": "John Horton",
+      "affiliation": "MIT",
+      "bio": "LLM agents as economic agents: markets, incentives and what economics says about measuring them.",
+      "image": "john_horton",
+      "url": "https://www.john-joseph-horton.com/",
+      "role": "Panelist",
+      "status": "Invited"
+    },
+    {
+      "name": "AJung Moon",
+      "affiliation": "McGill University · Mila",
+      "bio": "Human-robot interaction and AI ethics: how AI shapes people’s decisions, and how to measure it.",
+      "image": "ajung_moon",
+      "url": "https://www.ajungmoon.com/",
+      "role": "Panelist",
+      "status": "Invited"
     }
   ],
   "organizers": [
