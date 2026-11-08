@@ -30,6 +30,12 @@
       "image": "joel_leibo"
     },
     {
+      "name": "Zhijing Jin",
+      "affiliation": "University of Toronto · Max Planck Institute",
+      "bio": "Causal reasoning with LLMs, and what GovSim and MoralSim show about cooperation and norms in societies of LLM agents.",
+      "image": "zhijing_jin"
+    },
+    {
       "name": "Noah Goodman",
       "affiliation": "Stanford University",
       "bio": "The cognitive-science view of collective reasoning.",
