@@ -137,8 +137,8 @@
 /* ---------- people ---------- */
 .people { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; }
 .speakers .person { flex: 0 1 calc((100% - 72px) / 4); }
-.orgs .person { flex: 0 1 calc((100% - 48px) / 3); text-align: left; }
-.orgs .bio { max-width: 270px; }
+.orgs .person { flex: 0 1 calc((100% - 96px) / 5); text-align: left; }
+.orgs .bio { font-size: 13.5px; }
 .person { padding: 12px 10px; text-align: center; transition: .2s; }
 .person:hover { transform: translateY(-3px); }
 .person:hover img, .person:hover .initials { box-shadow: 0 0 0 2px var(--accent), var(--shadow); }
